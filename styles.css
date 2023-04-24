@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&display=swap');
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Mukta', Arial, sans-serif;
+}
+
+.sign-up-container {
+    padding: 30px;
+    background-color: hsl(139, 54%, 83%);
+}
+
+.form-warning {
+    color: darkred;
+    font-size: 10px;
+    min-height: 16px;
+}

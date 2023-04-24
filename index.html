@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Form validation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-
+<div class="sign-up-container">
+    <form id="form" action="">
+    <h1>Registreren</h1>
+    <label for="username-field">Gebruikersnaam:</label>
+    <input type="text" name="username" id="username-field" placeholder="Username"/>
+        <p class="form-warning" id="username-warning"></p>
+    <label for="password-field">Wachtwoord:</label>
+    <input type="password" name="password" id="password-field" placeholder="Password"/>
+        <p class="form-warning" id="password-warning"></p>
+    </form>
+</div>
 </body>
 </html>
